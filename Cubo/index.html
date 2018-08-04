@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+        <script src="script.js"></script>
+
+		<title>Rompecabezas</title>
+
+		<link rel="icon" type="image/png" href="images/favicon2.png">
+	</head>
+
+	<body>
+		<h1>Rompecabezas</h1>
+		<ul class="menu">
+			<li>
+				<a href="#" class="activo" onclick="rotar(0, event);" >Princesa</a>
+			</li>
+			<li>
+				<a href="#" class="defecto"  onclick="rotar(90, event);">Pirata</a>
+			</li>
+			<li>
+				<a href="#" class="defecto" onclick="rotar(180, event);">Mago</a>
+			</li>
+			<li>
+				<a href="#" class="defecto" onclick="rotar(270, event);">Caballero</a>
+			</li>
+		</ul>
+		<div id="contenedor">
+
+<!--************************************************************************-->       
+			<div id="cubo">
+				<div id="princesa" class="cara">
+					<h2>Princesa</h2>
+					<p>
+						Princesa
+                    </p>
+                    <img src="images/princesa.jpg" class="image">
+                </div>
+<!--************************************************************************-->       
+				<div id="pirata" class="cara">
+					<h2>Pirata</h2>
+					<p>
+						Pirata
+                    </p>
+                    <img src="images/pirata.jpg" class="image">
+                </div>
+<!--************************************************************************-->       
+				<div id="mago" class="cara">
+					<h2>Mago</h2>
+					<p>
+						Mago
+                    </p>
+                    <img src="images/mago.jpg" class="image">
+                </div>
+<!--************************************************************************-->       
+				<div id="caballero" class="cara">
+					<h2>Caballero</h2>
+					<p>
+						Caballero
+                    </p>
+                    <img src="images/caballero.jpg" class="image">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
